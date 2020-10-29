@@ -144,8 +144,8 @@ body {
   line-height: 24px;
   font-size: 18px;
   color: #d3d2d2;
-  margin-bottom: 50px;
   cursor: default;
+  margin-bottom: 50px;
 }
 .slider__btn {
   display: inline-block;
@@ -245,7 +245,7 @@ body {
   font-size: 24px;
   line-height: 24px;
   font-weight: 500;
-  color: #212020;
+  color: rgb(33, 32, 32);
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
@@ -301,10 +301,14 @@ body {
   color: #fff;
 }
 .services__item-link {
+  display: inline;
   font-family: "Roboto", sans-serif;
   color: #050505;
   text-decoration: underline;
   margin-right: 60px;
+}
+.services__item-link[open] {
+  display: inline;
 }
 
 /* section about */
